@@ -1,0 +1,5 @@
+print("Hello Dude !")
+print("What is your name ?")
+x=input()
+l=len(x)
+print("The length of youur name is :" + str(l))

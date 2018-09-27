@@ -1,0 +1,7 @@
+print("Welcome ! This is a programe of two numbers")
+x=input("input 1st number : ")
+y=input("input 2nd number : ")
+sum=int(x)+int(y)
+print(sum)
+sum=str(sum)
+print(len(sum))

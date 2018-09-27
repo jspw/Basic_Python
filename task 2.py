@@ -1,0 +1,5 @@
+print("Hello")
+name=input("Can you please tell me your name ,sir?")
+print("Length of your name is", len(name))
+age=input("Your age please .... ")
+print("You will be " + str(int(age)+1) + " in a year")
