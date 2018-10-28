@@ -13,6 +13,3 @@ print(Name[0:7] + Name[7:30])
 print(Name[:7] + Name[7:] )
 
 
-
-
-
