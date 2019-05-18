@@ -1,12 +1,14 @@
 #! python3
 #Os Module
 import os 
-print("Welcome ! This is a programme to delete the same files in different directories")
+print("Welcome !\n\n\nThis is a programme to delete the same files in different directories -_- \n\n")
 
-path1=input("Enter path1 : ")
+print(r"NOTE :  I can't delete any folder ! I don't have that permission :) ")
+
+path1=input("\n\nEnter path of the 1st Folder : ")
 x1 = os.listdir(path1)
 
-path2=input("Entrt path2 : ")
+path2=input("\n\nEnter path of the 2st Folder : ")
 x2 = os.listdir(path2)
 
 for i in x1 : 
