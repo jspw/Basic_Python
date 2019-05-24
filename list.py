@@ -1,6 +1,8 @@
 bal = ['apple', 'bal','mal','ele','eaedaaf']
 print(bal)
 
+print(bal[0:4])
+
 bal.append('ok') #add item to last of the list
 print(bal)
 
@@ -58,3 +60,8 @@ print(animals[2][0][1]) #print u know what i mean .....
 x='10000'
 bal=list(x)
 print(bal)
+
+print(bal == animals)  # '=='  checks if the value of the list same or not
+print(bal is animals)  # 'ls' checks if they are same object or not 
+
+print(bal is bal) # if name are same then 'ls' will show true
