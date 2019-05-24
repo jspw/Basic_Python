@@ -72,3 +72,19 @@ for i in new :
     for j,k in i.items():
         print(j,k)
 
+
+d=dict.fromkeys(['name','age'],'unknown')
+print(d)
+
+if (d.get('bal')) :
+    print("Have")
+print("Ase" if d.get('name') else print("nai"))
+
+x=d.copy()
+print(x)
+
+print(x.get('bal',"Not Found"))
+
+print(x.get('unknown',"Not Found"))
+
+
