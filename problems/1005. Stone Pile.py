@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+l.sort()
+l=set(l)
+l=list(l)
+if(len(l)==1):
+    print(0)
+else:
+    print(l[1]-l[0])
