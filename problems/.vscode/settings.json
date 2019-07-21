@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": "C:\\Program Files\\Python37\\python.exe",
     "python.autoComplete.extraPaths": [
         "C:\\Users\\JackSparrow\\.vscode\\extensions\\rt-thread.rt-thread-micropython-0.1.2\\code-completion",
@@ -7,4 +8,7 @@
     "files.associations": {
         ".mpyproject.json": "jsonc"
     }
+=======
+    "python.pythonPath": "C:\\Users\\JackSparrow\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+>>>>>>> master
 }
