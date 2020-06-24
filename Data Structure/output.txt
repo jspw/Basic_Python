@@ -1,0 +1,4 @@
+start : 0,end : 5,mid 2
+start : 3,end : 5,mid 4
+start : 5,end : 5,mid 5
+7 not found
